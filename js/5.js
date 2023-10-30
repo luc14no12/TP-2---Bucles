@@ -1,5 +1,5 @@
 while (true) {
-    let dniNumero = prompt("Introduce el número de DNI (0-99999999):");
+    let dniNumero = prompt("Introduce el número de DNI :");
   
     
     if (dniNumero === null || dniNumero.trim() === "") {
@@ -17,7 +17,7 @@ while (true) {
   
       alert("La letra del DNI " + dniNumero + " es: " + letraDNI);
     } else {
-      alert("El valor introducido no es válido. Debe ser un número entre 0 y 99999999.");
+      alert("El valor introducido no es válido. Debe ser un número entre 0 y 99999999");
     }
   }
   
